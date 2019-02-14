@@ -11,6 +11,7 @@ h1, h2, h3{
 .title
 {
   font-size: 45px;
+  margin-top:0px;
 }
 
 .subtitle{
@@ -19,9 +20,26 @@ h1, h2, h3{
  font-style: italic;
 }
 
+.button {
+  background-color: #4CAF50; /* green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .lets-center{
-   text-align: center;
-   margin:0 auto;
+  display:block;
+  text-align: center;
+  margin:0 auto;
+}
+
+.push-right
+{
+  float:right;
 }
 
  .make-uppercase{
@@ -34,4 +52,15 @@ h1, h2, h3{
    margin: 0 auto;
    padding: 0px 15px;
    background-color: white;
+ }
+
+ #instructor{
+   width:125px;
+   height:125px;
+ }
+
+ #logo-cocoa{
+   margin: 50px 15px;
+   width:181px;
+   height:25px;
  }
