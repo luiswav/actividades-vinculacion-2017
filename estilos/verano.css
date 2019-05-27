@@ -1,0 +1,82 @@
+body{
+  /* background-color: snow; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+header{
+  padding: 1em 0 2.5em 0;
+  margin-bottom: 1em;
+  background-color: #ED1C24;
+}
+
+h1, h2, h3{
+  font-family: 'Coda', cursive;
+  color: white;
+}
+
+h2, h3
+{
+  color: dimgray;
+}
+
+.title
+{
+  font-size: 45px;
+  margin-top:0px;
+}
+
+.subtitle{
+ display: block;
+ font-size: 20px;
+ font-style: italic;
+}
+
+.button, .button:link, .button:visited {
+  background-color: #BD161C; /* usfq red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #ED1C24; /* usfq red */
+}
+
+.lets-center{
+  display:block;
+  text-align: center;
+  margin:0 auto;
+}
+
+.push-right
+{
+  float:right;
+}
+
+ .make-uppercase{
+   text-transform: uppercase;
+ }
+
+ #page-container{
+   min-width: 70px;
+   max-width: 570px;
+   margin: 0 auto;
+   padding: 0px 15px;
+   background-color: white;
+ }
+
+ #instructor{
+   width:125px;
+   height:125px;
+ }
+
+ #logo-cocoa{
+   margin: 50px 15px;
+   width:181px;
+   height:25px;
+ }
