@@ -10,6 +10,10 @@ header{
   background-color: #ED1C24;
 }
 
+section{
+  margin-bottom: 2em;
+}
+
 h1, h2, h3{
   font-family: 'Coda', cursive;
   color: white;
@@ -62,6 +66,18 @@ h2, h3
    text-transform: uppercase;
  }
 
+ .strike-through{
+   text-decoration: line-through;
+ }
+
+ p.instructor-name{
+   margin-bottom: 1em;
+ }
+
+ .instructor-work{
+   margin-bottom: 1em;
+ }
+
  #page-container{
    min-width: 70px;
    max-width: 570px;
@@ -70,12 +86,7 @@ h2, h3
    background-color: white;
  }
 
- #instructor{
-   width:125px;
-   height:125px;
- }
-
- #logo-cocoa{
+#logo-cocoa{
    margin: 50px 15px;
    width:181px;
    height:25px;
