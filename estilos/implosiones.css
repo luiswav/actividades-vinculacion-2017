@@ -84,8 +84,8 @@ footer > *
 }
 
 #artwork > img {
-  max-width: 100%;
-  height: auto;
+  max-width: 600px;
+  max-height: 491px;
 }
 
 #artist{
