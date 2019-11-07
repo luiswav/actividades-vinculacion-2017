@@ -1,0 +1,106 @@
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* In order to see extra space, you can set a different color. */
+  background-color: black;
+
+  font-size: 16px;
+}
+
+/*
+Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) {
+  body{
+    font-size: 24px;
+    /* background-color: green; */
+  }
+}
+
+/*
+Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) {
+  body{
+    font-size:32px;
+    /* background-color: blue; */
+  }
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 1.3em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1em;
+}
+
+footer{
+  font-size: 0.7em;
+}
+
+a, a:hover, a:visited{
+  color: rgb(255, 153, 51);
+}
+
+a.small{
+  color: rgba(255, 153, 51, 0.5);
+  font-size: 0.7em;
+}
+
+.draw-guide{
+  border-left: 1px dashed gray;
+}
+
+.push-right
+{
+ float:right;
+}
+
+#host{
+   margin-bottom: 1em;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+#title{
+  margin-bottom: 1em;
+}
+
+#artist{
+  margin-bottom: 2em;
+}
+
+#venues{
+  margin-bottom: 1em;
+}
+
+.spacer{
+  height: 2.5em;
+}
+
+#page-container{
+ /* HTC incredible S resolution, 480 x 800 pixels */
+ /*
+ 360 -> example of extra device.
+ 580 -> exmaple of small device.
+ 770 -> example of medium device.
+ 999 -> exmaple of large device.
+ */
+
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 15px;
+ background-color: black;
+}
