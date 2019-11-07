@@ -47,17 +47,17 @@ p{
   font-size: 1em;
 }
 
-footer{
-  font-size: 0.7em;
-}
-
 a, a:hover, a:visited{
   color: rgb(255, 153, 51);
 }
 
-a.small{
+a.light{
   color: rgba(255, 153, 51, 0.5);
-  font-size: 0.7em;
+}
+
+footer > *
+{
+  font-size: 0.8em;
 }
 
 .draw-guide{
@@ -76,6 +76,11 @@ a.small{
 
 #title{
   margin-bottom: 1em;
+}
+
+#artwork
+{
+  margin-bottom: 0.5em;
 }
 
 #artist{
