@@ -83,6 +83,11 @@ footer > *
   margin-bottom: 0.5em;
 }
 
+#artwork > img {
+  max-width: 100%;
+  height: auto;
+}
+
 #artist{
   margin-bottom: 2em;
 }
