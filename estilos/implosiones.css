@@ -83,7 +83,7 @@ footer > *
   margin-bottom: 0.5em;
 }
 
-#artwork > img {
+img.main {
   max-width: 100%;
   height: auto;
 }
